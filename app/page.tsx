@@ -96,6 +96,7 @@ export default function HomePage() {
         </div>
 
 
+
         {/* Mobile menu dropdown */}
         <div
           className={`md:hidden bg-white/95 border-b border-slate-200 overflow-hidden transition-all duration-300 ease-in-out ${
