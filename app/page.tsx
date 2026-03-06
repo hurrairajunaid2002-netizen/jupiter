@@ -110,9 +110,10 @@ export default function HomePage() {
       </nav>
 
       {/* ─── Hero ──────────────────────────────────────────────── */}
-     <section
+    <section
   id="home"
-  className="relative h-screen flex items-center justify-center overflow-hidden"
+  className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 sm:pt-24 md:pt-28 lg:pt-32"
+  // ↑ Added top padding to clear the fixed navbar + extra breathing room on mobile
 >
   <video
     autoPlay
@@ -123,51 +124,50 @@ export default function HomePage() {
     src="/shipvid.mp4"
   />
 
-  {/* Softer, more modern overlay */}
+  {/* Softer, modern overlay */}
   <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70" />
 
   <div className="relative z-10 text-center text-white px-5 sm:px-8 max-w-5xl w-full">
-    {/* Company badge / subtitle - smaller & elegant */}
-    <div className="mb-5 sm:mb-7 opacity-90">
+    {/* Company badge - moved a bit higher but with more top breathing room */}
+    <div className="mb-6 sm:mb-8 md:mb-10 opacity-90 pt-4 sm:pt-6">
       <p className="text-base sm:text-lg md:text-xl font-medium tracking-wide uppercase text-amber-300/90 drop-shadow">
         Jupiter Recruitment Services LLC FZ
       </p>
-      <p className="text-xs sm:text-sm md:text-base text-slate-300/90 mt-1">
+      <p className="text-xs sm:text-sm md:text-base text-slate-300/90 mt-1.5">
         Meydan Free Zone • Dubai • United Arab Emirates
       </p>
     </div>
 
-    {/* Main headline - tighter tracking, better scale */}
-    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight mb-5 sm:mb-7 drop-shadow-2xl">
+    {/* Headline - adjusted scale & spacing for mobile comfort */}
+    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight mb-4 sm:mb-6 md:mb-8 drop-shadow-2xl">
       Professional Ship Manning
     </h1>
 
-    {/* Subheadline - cleaner, more premium feel */}
-    <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light max-w-3xl mx-auto mb-10 sm:mb-12 drop-shadow-lg">
+    {/* Subheadline - better line-height & max-width on small screens */}
+    <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light max-w-4xl mx-auto mb-8 sm:mb-10 md:mb-12 drop-shadow-lg leading-relaxed">
       Supplying certified, experienced seafarers to leading Greece-based shipowners
     </p>
 
-    {/* Modern CTA button */}
-    <div className="flex flex-col sm:flex-row justify-center items-center gap-5 sm:gap-6">
+    {/* CTA buttons - stacked on mobile, better spacing */}
+    <div className="flex flex-col sm:flex-row justify-center items-center gap-5 sm:gap-8">
       <button
         onClick={() => handleNavClick("contact")}
-        className="group relative inline-flex items-center justify-center px-10 sm:px-12 py-4 sm:py-5 text-base sm:text-lg font-semibold text-white bg-amber-600/95 backdrop-blur-sm border border-amber-500/30 rounded-xl shadow-xl hover:shadow-2xl hover:bg-amber-700/95 hover:border-amber-400/40 transition-all duration-300 hover:scale-[1.03] active:scale-[0.98]"
+        className="group relative inline-flex items-center justify-center px-10 sm:px-14 py-4 sm:py-5 text-base sm:text-lg font-semibold text-white bg-amber-600/95 backdrop-blur-sm border border-amber-500/30 rounded-xl shadow-xl hover:shadow-2xl hover:bg-amber-700/95 hover:border-amber-400/40 transition-all duration-300 hover:scale-[1.03] active:scale-[0.98] w-full sm:w-auto min-w-[220px]"
       >
         <span className="relative z-10">Get in Touch</span>
       </button>
 
-      {/* Optional secondary subtle link (very modern touch) */}
       <button
         onClick={() => handleNavClick("about")}
-        className="text-base sm:text-lg font-medium text-white/80 hover:text-white transition-colors duration-200 underline underline-offset-4 decoration-amber-400/60 hover:decoration-amber-400"
+        className="text-base sm:text-lg font-medium text-white/85 hover:text-white transition-colors duration-200 underline underline-offset-4 decoration-amber-400/60 hover:decoration-amber-400 decoration-2"
       >
         Learn More →
       </button>
     </div>
   </div>
 
-  {/* Optional: subtle scroll indicator (very common in 2025 premium sites) */}
-  <div className="absolute bottom-8 sm:bottom-10 left-1/2 -translate-x-1/2 hidden sm:flex flex-col items-center gap-2 opacity-70 animate-pulse">
+  {/* Scroll indicator - hidden on mobile, appears only on larger screens */}
+  <div className="absolute bottom-8 sm:bottom-10 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 opacity-70 animate-pulse">
     <span className="text-xs uppercase tracking-widest text-white/80">Scroll</span>
     <div className="w-5 h-9 border-2 border-white/60 rounded-full flex items-center justify-center">
       <div className="w-1.5 h-3 bg-white/80 rounded-full animate-bounce" />
