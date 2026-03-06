@@ -41,7 +41,7 @@ export default function HomePage() {
 
       {/* ─── Navbar ────────────────────────────────────────────── */}
       <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md shadow-sm z-50 border-b border-slate-200">
-        <div className="max-w-7xl mx-auto flex justify-between items-center py-5 px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto flex justify-between items-center py-6 px-6 lg:px-8">
           <div className="text-3xl font-bold tracking-tight text-slate-900">
             Jupiter Recruitment
           </div>
@@ -140,12 +140,12 @@ export default function HomePage() {
 
     {/* Headline - adjusted scale & spacing for mobile comfort */}
     <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight mb-4 sm:mb-6 md:mb-8 drop-shadow-2xl">
-      Professional Ship Manning
+      Professional Ship Manning Company
     </h1>
 
     {/* Subheadline - better line-height & max-width on small screens */}
     <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light max-w-4xl mx-auto mb-8 sm:mb-10 md:mb-12 drop-shadow-lg leading-relaxed">
-      Supplying certified, experienced seafarers to leading Greece-based shipowners
+      Supplying certified, experienced Seafarers to leading Greece-based shipping companies
     </p>
 
     {/* CTA buttons - stacked on mobile, better spacing */}
@@ -167,12 +167,12 @@ export default function HomePage() {
   </div>
 
   {/* Scroll indicator - hidden on mobile, appears only on larger screens */}
-  <div className="absolute bottom-8 sm:bottom-10 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 opacity-70 animate-pulse">
+  {/* <div className="absolute bottom-8 sm:bottom-10 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 opacity-70 animate-pulse">
     <span className="text-xs uppercase tracking-widest text-white/80">Scroll</span>
     <div className="w-5 h-9 border-2 border-white/60 rounded-full flex items-center justify-center">
       <div className="w-1.5 h-3 bg-white/80 rounded-full animate-bounce" />
     </div>
-  </div>
+  </div> */}
 </section>
 
       {/* ─── About ─────────────────────────────────────────────── */}
@@ -183,10 +183,10 @@ export default function HomePage() {
           </h2>
           <div className="text-lg md:text-xl leading-relaxed text-slate-700 max-w-4xl mx-auto space-y-6">
             <p>
-              Jupiter Recruitment Services LLC FZ is a Dubai-based ship manning company engaged in the recruitment, screening, and coordination of qualified and experienced seafarers for our principals — Greece-based ship owners and shipping companies.
+              Jupiter Recruitment Services LLC FZ is a Dubai-based ship manning company engaged in the recruitment, screening, and coordination of qualified and experienced Seafarers for our principals — Greece-based ship owners and shipping companies.
             </p>
             <p>
-              We specialize in identifying competent, medically fit, and properly certified maritime professionals who meet the operational, technical, and safety requirements of modern shipping. Through our recruitment network, we propose seafarers from various nationalities to our Greek principals, ensuring the availability of experienced officers and ratings for different vessel types.
+              We specialize in identifying competent, medically fit, and properly certified maritime professionals who meet the operational, technical, and safety requirements of modern shipping. Through our recruitment network, we propose Seafarers from various nationalities to our Greek principals, ensuring the availability of experienced officers and ratings for different vessel types.
             </p>
             <p>
               Our recruitment and screening procedures are conducted in accordance with internationally recognized maritime conventions and regulations, including <strong>STCW 2010</strong>, <strong>MLC 2006</strong>, and applicable flag state requirements.
@@ -234,7 +234,7 @@ export default function HomePage() {
             ))}
           </div>
           <p className="text-lg md:text-xl text-slate-600 text-center max-w-4xl mx-auto mt-12">
-            Our recruitment network enables us to source experienced seafarers of various nationalities with valid certification and relevant vessel experience in accordance with the requirements of our principals.
+            Our recruitment network enables us to source experienced Seafarers of various nationalities with valid certification and relevant vessel experience in accordance with the requirements of our principals.
           </p>
         </div>
       </section>
@@ -274,7 +274,7 @@ export default function HomePage() {
             <div className="mt-16 p-8 bg-amber-50 border border-amber-200 rounded-2xl text-center">
               <p className="text-xl text-slate-800 font-medium">
                 In accordance with international maritime labour practices,{" "}
-                <span className="text-amber-700 font-bold">seafarers are not charged any recruitment or placement fees.</span>
+                <span className="text-amber-700 font-bold">Seafarers are not charged any recruitment or placement fees.</span>
               </p>
             </div>
           </div>
@@ -288,13 +288,13 @@ export default function HomePage() {
             Our Approach
           </h2>
           <p className="text-lg md:text-xl text-slate-600 text-center max-w-3xl mx-auto mb-10">
-            We focus on building long-term professional relationships between seafarers and our principals. Whenever possible, we promote continuity of employment with the same ship owner. This contributes to:
+            We focus on building long-term professional relationships between Seafarers and our principals. Whenever possible, we promote continuity of employment with the same ship owner. This contributes to:
           </p>
           <ul className="text-lg md:text-xl text-slate-700 space-y-4 list-disc max-w-4xl mx-auto pl-8">
             <li>Crew stability and operational efficiency</li>
             <li>Greater vessel familiarity and onboard safety</li>
-            <li>Long-term career development for seafarers</li>
-            <li>Strong professional relationships between seafarers and ship owners</li>
+            <li>Long-term career development for Seafarers</li>
+            <li>Strong professional relationships between Seafarers and ship owners</li>
           </ul>
           <p className="text-lg md:text-xl text-slate-600 max-w-4xl mx-auto mt-10 text-center font-medium">
             Our objective is to support our principals with reliable and competent crew while contributing to sustainable maritime careers.
@@ -366,7 +366,7 @@ export default function HomePage() {
             <div>
               <p className="font-bold text-2xl text-slate-900 mb-4">Mission</p>
               <ul className="space-y-4 list-disc pl-8">
-                <li>Recruit competent, medically fit, and certified seafarers</li>
+                <li>Recruit competent, medically fit, and certified Seafarers</li>
   <li>Maintain a disciplined and transparent recruitment system</li>
   <li>Ensure compliance with international maritime conventions</li>
   <li>Support ship owners with reliable and performance-oriented crew</li>
@@ -442,7 +442,7 @@ export default function HomePage() {
       {/* Right - CTA */}
       <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left mt-6 md:mt-0">
         <p className="text-lg sm:text-xl md:text-2xl font-light text-slate-300 mb-6 sm:mb-8 max-w-md">
-          Looking for qualified seafarers or a career at sea?
+          Looking for qualified Seafarers or a career at sea?
         </p>
         <a
           href="mailto:operations@jupiterrecruitmentservices.com"
