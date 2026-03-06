@@ -184,7 +184,7 @@ export default function HomePage() {
           </h2>
           <div className="text-lg md:text-xl leading-relaxed text-slate-700 max-w-4xl mx-auto space-y-6">
             <p>
-              Jupiter Recruitment Services LLC FZ is a Dubai-based ship manning company engaged in the recruitment, screening, and coordination of qualified and experienced Seafarers for our principals — Greece-based ship owners and shipping companies.
+              Jupiter Recruitment Services LLC FZ is a Dubai-based ship manning company engaged in the recruitment, screening, and coordination of qualified and experienced Seafarers for our principals — Greece-based ship owners and Shipping companies.
             </p>
             <p>
               We specialize in identifying competent, medically fit, and properly certified maritime professionals who meet the operational, technical, and safety requirements of modern shipping. Through our recruitment network, we propose Seafarers from various nationalities to our Greek principals, ensuring the availability of experienced officers and ratings for different vessel types.
