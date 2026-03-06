@@ -108,7 +108,7 @@ export default function HomePage() {
           </ul>
         </div>
       </nav>
-      
+
 
       {/* ─── Hero ──────────────────────────────────────────────── */}
     <section
@@ -146,7 +146,7 @@ export default function HomePage() {
 
     {/* Subheadline - better line-height & max-width on small screens */}
     <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light max-w-4xl mx-auto mb-8 sm:mb-10 md:mb-12 drop-shadow-lg leading-relaxed">
-      Supplying certified, experienced Seafarers to leading Greece-based shipping companies
+      Supplying certified, experienced Seafarers to leading Greece-based Shipping companies
     </p>
 
     {/* CTA buttons - stacked on mobile, better spacing */}
