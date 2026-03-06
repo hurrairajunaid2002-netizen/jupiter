@@ -146,7 +146,7 @@ export default function HomePage() {
 
     {/* Subheadline - better line-height & max-width on small screens */}
     <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light max-w-4xl mx-auto mb-8 sm:mb-10 md:mb-12 drop-shadow-lg leading-relaxed">
-      Supplying certified, experienced Seafarers to leading Greece-based Shipping companies
+      Supplying certified, experienced Seafarers to leading Greece-based Shipping Companies
     </p>
 
     {/* CTA buttons - stacked on mobile, better spacing */}
@@ -184,10 +184,10 @@ export default function HomePage() {
           </h2>
           <div className="text-lg md:text-xl leading-relaxed text-slate-700 max-w-4xl mx-auto space-y-6">
             <p>
-              Jupiter Recruitment Services LLC FZ is a Dubai-based ship manning company engaged in the recruitment, screening, and coordination of qualified and experienced Seafarers for our principals — Greece-based ship owners and Shipping companies.
+              Jupiter Recruitment Services LLC FZ is a Dubai-based Ship manning Company engaged in the recruitment, screening, and coordination of qualified and experienced Seafarers for our principals — Greece-based Ship owners and Shipping Companies.
             </p>
             <p>
-              We specialize in identifying competent, medically fit, and properly certified maritime professionals who meet the operational, technical, and safety requirements of modern shipping. Through our recruitment network, we propose Seafarers from various nationalities to our Greek principals, ensuring the availability of experienced officers and ratings for different vessel types.
+              We specialize in identifying competent, medically fit, and properly certified maritime professionals who meet the operational, technical, and safety requirements of modern Shipping. Through our recruitment network, we propose Seafarers from various nationalities to our Greek principals, ensuring the availability of experienced officers and ratings for different vessel types.
             </p>
             <p>
               Our recruitment and screening procedures are conducted in accordance with internationally recognized maritime conventions and regulations, including <strong>STCW 2010</strong>, <strong>MLC 2006</strong>, and applicable flag state requirements.
@@ -289,13 +289,13 @@ export default function HomePage() {
             Our Approach
           </h2>
           <p className="text-lg md:text-xl text-slate-600 text-center max-w-3xl mx-auto mb-10">
-            We focus on building long-term professional relationships between Seafarers and our principals. Whenever possible, we promote continuity of employment with the same ship owner. This contributes to:
+            We focus on building long-term professional relationships between Seafarers and our principals. Whenever possible, we promote continuity of employment with the same Ship owner. This contributes to:
           </p>
           <ul className="text-lg md:text-xl text-slate-700 space-y-4 list-disc max-w-4xl mx-auto pl-8">
             <li>Crew stability and operational efficiency</li>
             <li>Greater vessel familiarity and onboard safety</li>
             <li>Long-term career development for Seafarers</li>
-            <li>Strong professional relationships between Seafarers and ship owners</li>
+            <li>Strong professional relationships between Seafarers and Ship Owners</li>
           </ul>
           <p className="text-lg md:text-xl text-slate-600 max-w-4xl mx-auto mt-10 text-center font-medium">
             Our objective is to support our principals with reliable and competent crew while contributing to sustainable maritime careers.
@@ -361,7 +361,7 @@ export default function HomePage() {
             <div>
               <p className="font-bold text-2xl text-slate-900 mb-4">Vision</p>
               <p>
-               To be a trusted ship manning partner for Greece-based ship owners, recognized for professionalism, reliability, and high standards in maritime recruitment.
+               To be a trusted Ship manning partner for Greece-based Ship Owners, recognized for professionalism, reliability, and high standards in maritime recruitment.
               </p>
             </div>
             <div>
@@ -370,7 +370,7 @@ export default function HomePage() {
                 <li>Recruit competent, medically fit, and certified Seafarers</li>
   <li>Maintain a disciplined and transparent recruitment system</li>
   <li>Ensure compliance with international maritime conventions</li>
-  <li>Support ship owners with reliable and performance-oriented crew</li>
+  <li>Support Ship owners with reliable and performance-oriented crew</li>
   <li>Build long-term professional relationships based on trust and professionalism</li>
               </ul>
             </div>
@@ -443,7 +443,7 @@ export default function HomePage() {
       {/* Right - CTA */}
       <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left mt-6 md:mt-0">
         <p className="text-lg sm:text-xl md:text-2xl font-light text-slate-300 mb-6 sm:mb-8 max-w-md">
-          Looking for qualified Seafarers or a career at sea?
+          Looking for qualified Seafarers or a career at Sea?
         </p>
         <a
           href="mailto:operations@jupiterrecruitmentservices.com"
